@@ -6,9 +6,9 @@ WTF?
 Install
 =======
 OSX:
-  $ brew install zbar
-  $ make
-  $ ./meow
+    $ brew install zbar
+    $ make
+    $ ./meow
 
 TODO
 ====
