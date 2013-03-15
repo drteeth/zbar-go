@@ -6,12 +6,11 @@ WTF?
 Install
 =======
 OSX:
+```
     $ brew install zbar
-
     $ make
-
     $ ./meow
-
+```
 TODO
 ====
 rename meow to something more meaningful
