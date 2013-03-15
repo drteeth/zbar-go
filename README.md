@@ -9,7 +9,7 @@ OSX:
 ```
     $ brew install zbar
     $ make
-    $ ./meow
+    $ ./meow -f images/qr_code.png
 ```
 TODO
 ====

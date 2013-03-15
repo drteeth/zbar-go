@@ -9,12 +9,17 @@ import "C"
 
 import (
 	"fmt"
+	"flag"
 )
 
+var imagePath = flag.String("f", "filename", "path to the image.")
+
 func main() {
+	flag.Parse()
+
 	initConverter()
 	for i := 0; i<20; i++ {
-		simple("sample.jpg")
+		simple(*imagePath)
 	}
 	fmt.Scanf("asdf")
 	destroyConverter()
